@@ -10,6 +10,12 @@ animation-duration: none;
 }
 }
 
+@media (prefers-color-scheme: dark) {
+:root {
+--foreground: white; 
+--background: black; 
+}
+}
 
 :root {
   --anispeed: 10s;
