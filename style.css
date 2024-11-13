@@ -9,6 +9,17 @@ animation: none;
 }
 }
 
+.circle {
+background: #0000; 
+color: #FFFF; 
+}
+
+@media (prefers-color-scheme: dark) {
+.circle-adaptive {
+background: #0000;
+color: #FFFF;
+}
+}
 
 :root {
   --anispeed: 10s;
