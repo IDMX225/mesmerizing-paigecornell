@@ -3,18 +3,10 @@
   https://codepen.io/xposedbones/pen/aOrQVy
 */
 
-@media (prefers-reduced-motion) {
-.animation {
-animation: dissolve 4s linear infinte both;
-background-color: green;
-text-decoration: overline; 
+@media (prefers-reduced-motion: reduce) {
+.circle {
+animation: none; 
 }
-}
-
-@media (prefers-color-scheme: dark)
-:root {
---foregorund: white;
---background: black; 
 }
 
 
