@@ -11,33 +11,12 @@ text-decoration: overline;
 }
 }
 
-.theme-a {
-background: #dca;
-color: #753; 
+@media (prefers-color-scheme: dark)
+:root {
+--foregorund: white;
+--background: black; 
 }
 
-@media (prefers-color-scheme: dark) {
-.theme-a.adaptive {
-background: #753;
-color: #dcb;
-outline: 5px dashed #000; 
-}
-
-.theme-b {
-background: #447;
-color: #bbd; 
-}
-
-@media (prefers-color-scheme: light) {
-.theme-b.adaptive {
-background: #bcd;
-color: #334;
-outline: 5px dotted #000; 
-}
-}
-
-
-}
 
 :root {
   --anispeed: 10s;
