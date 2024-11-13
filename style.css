@@ -4,8 +4,8 @@
 */
 
 @media (prefers-reduced-motion) {
-* {/* disable transitions */;
- transition-duration: 0;}
+* {/* disable transitions */ transition-duration: 0;}
+
 }
 
 :root {
