@@ -3,12 +3,11 @@
   https://codepen.io/xposedbones/pen/aOrQVy
 */
 
-@media (prefers-reduced-motion: reduce) {
+@media (prefers-reduced-motion) {
 .circle {
 animation: none; 
 }
 }
-
 
 :root {
   --anispeed: 10s;
