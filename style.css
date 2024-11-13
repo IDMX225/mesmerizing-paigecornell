@@ -4,7 +4,16 @@
 */
 
 @media (prefers-reduced-motion) {
-* {/* disable transitions */ transition-duration: 0;}
+* {/* disable transitions */transition-duration: 0;}
+
+}
+
+@media (prefers-color-scheme: dark) {
+.theme-a.adaptive {
+background: #753;
+color: #dcb;
+outline: 5px dashed #000; 
+}
 
 }
 
