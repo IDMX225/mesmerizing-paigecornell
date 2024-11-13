@@ -11,6 +11,11 @@ animation-duration: none;
 }
 
 @media (prefers-color-scheme: dark) {
+.circle {
+--foreground: white; 
+--background: black;
+}
+
 :root {
 --foreground: white; 
 --background: black; 
