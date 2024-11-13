@@ -6,7 +6,6 @@
 @media (prefers-reduced-motion: reduce) {
 .circle {
 animation: none; 
-animation duration: none; 
 }
 }
 
