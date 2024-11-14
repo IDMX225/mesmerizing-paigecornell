@@ -3,25 +3,6 @@
   https://codepen.io/xposedbones/pen/aOrQVy
 */
 
-@media (prefers-reduced-motion: reduce) {
-.circle {
-animation: none; 
-animation-duration: none;
-}
-}
-
-@media (prefers-color-scheme: dark) {
-.circle {
---foreground: white; 
---background: black;
-}
-
-:root {
---foreground: white; 
---background: black; 
-}
-}
-
 :root {
   --anispeed: 10s;
 }
@@ -488,3 +469,22 @@ body {
   }
 }
 /* # Mesmerizing by xposedbones */
+
+@media (prefers-reduced-motion: reduce) {
+  .circle {
+  animation: none; 
+  animation-duration: none;
+  }
+  }
+  
+  @media (prefers-color-scheme: dark) {
+  .circle {
+  --foreground: white; 
+  --background: black;
+  }
+  
+  :root {
+  --foreground: white; 
+  --background: black; 
+  }
+  }
