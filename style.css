@@ -2,14 +2,9 @@
   # Mesmerizing by xposedbones 
   https://codepen.io/xposedbones/pen/aOrQVy
 */
-/*
-  # Mesmerizing by xposedbones
-  https://codepen.io/xposedbones/pen/aOrQVy
-*/
+
 :root {
-  --anispeed: 10s;
-  --foreground: hsl(0, 0%, 100%);
-  --background: hsl(0, 0%, 0%);
+  --anispeed: 20s;
 }
 
 body {
@@ -17,13 +12,12 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--background);
 }
 
 .wrapper {
   height: 75vh;
   padding: 2rem;
-  outline: 1px solid var(--foreground);
+  outline: 1px solid black;
   margin: 3rem;
 }
 
@@ -43,7 +37,7 @@ body {
 }
 
 .holder .circle:nth-child(1) {
-  background: var(--foreground);
+  background: black;
   border-bottom: none;
   border-radius: 25px 25px 0 0;
   width: 25px;
@@ -57,24 +51,20 @@ body {
   0% {
     transform: translateX(-50%) rotate(0deg);
   }
-
   100% {
     transform: translateX(-50%) rotate(-360deg);
   }
 }
-
 @keyframes circle-1 {
   0% {
     transform: translateX(-50%) rotate(0deg);
   }
-
   100% {
     transform: translateX(-50%) rotate(-360deg);
   }
 }
-
 .holder .circle:nth-child(2) {
-  border: 13px solid var(--foreground);
+  border: 13px solid black;
   border-bottom: none;
   border-radius: 31px 31px 0 0;
   width: 31px;
@@ -88,24 +78,20 @@ body {
   0% {
     transform: translateX(-50%) rotate(0deg);
   }
-
   100% {
     transform: translateX(-50%) rotate(-720deg);
   }
 }
-
 @keyframes circle-2 {
   0% {
     transform: translateX(-50%) rotate(0deg);
   }
-
   100% {
     transform: translateX(-50%) rotate(-720deg);
   }
 }
-
 .holder .circle:nth-child(3) {
-  border: 13px solid var(--foreground);
+  border: 13px solid black;
   border-bottom: none;
   border-radius: 62px 62px 0 0;
   width: 62px;
@@ -119,24 +105,20 @@ body {
   0% {
     transform: translateX(-50%) rotate(0deg);
   }
-
   100% {
     transform: translateX(-50%) rotate(-1080deg);
   }
 }
-
 @keyframes circle-3 {
   0% {
     transform: translateX(-50%) rotate(0deg);
   }
-
   100% {
     transform: translateX(-50%) rotate(-1080deg);
   }
 }
-
 .holder .circle:nth-child(4) {
-  border: 13px solid var(--foreground);
+  border: 13px solid black;
   border-bottom: none;
   border-radius: 93px 93px 0 0;
   width: 93px;
@@ -150,24 +132,20 @@ body {
   0% {
     transform: translateX(-50%) rotate(0deg);
   }
-
   100% {
     transform: translateX(-50%) rotate(-1440deg);
   }
 }
-
 @keyframes circle-4 {
   0% {
     transform: translateX(-50%) rotate(0deg);
   }
-
   100% {
     transform: translateX(-50%) rotate(-1440deg);
   }
 }
-
 .holder .circle:nth-child(5) {
-  border: 13px solid var(--foreground);
+  border: 13px solid black;
   border-bottom: none;
   border-radius: 124px 124px 0 0;
   width: 124px;
@@ -181,24 +159,20 @@ body {
   0% {
     transform: translateX(-50%) rotate(0deg);
   }
-
   100% {
     transform: translateX(-50%) rotate(-1800deg);
   }
 }
-
 @keyframes circle-5 {
   0% {
     transform: translateX(-50%) rotate(0deg);
   }
-
   100% {
     transform: translateX(-50%) rotate(-1800deg);
   }
 }
-
 .holder .circle:nth-child(6) {
-  border: 13px solid var(--foreground);
+  border: 13px solid black;
   border-bottom: none;
   border-radius: 155px 155px 0 0;
   width: 155px;
@@ -212,24 +186,20 @@ body {
   0% {
     transform: translateX(-50%) rotate(0deg);
   }
-
   100% {
     transform: translateX(-50%) rotate(-2160deg);
   }
 }
-
 @keyframes circle-6 {
   0% {
     transform: translateX(-50%) rotate(0deg);
   }
-
   100% {
     transform: translateX(-50%) rotate(-2160deg);
   }
 }
-
 .holder .circle:nth-child(7) {
-  border: 13px solid var(--foreground);
+  border: 13px solid black;
   border-bottom: none;
   border-radius: 186px 186px 0 0;
   width: 186px;
@@ -243,24 +213,20 @@ body {
   0% {
     transform: translateX(-50%) rotate(0deg);
   }
-
   100% {
     transform: translateX(-50%) rotate(-2520deg);
   }
 }
-
 @keyframes circle-7 {
   0% {
     transform: translateX(-50%) rotate(0deg);
   }
-
   100% {
     transform: translateX(-50%) rotate(-2520deg);
   }
 }
-
 .holder .circle:nth-child(8) {
-  border: 13px solid var(--foreground);
+  border: 13px solid black;
   border-bottom: none;
   border-radius: 217px 217px 0 0;
   width: 217px;
@@ -274,24 +240,20 @@ body {
   0% {
     transform: translateX(-50%) rotate(0deg);
   }
-
   100% {
     transform: translateX(-50%) rotate(-2880deg);
   }
 }
-
 @keyframes circle-8 {
   0% {
     transform: translateX(-50%) rotate(0deg);
   }
-
   100% {
     transform: translateX(-50%) rotate(-2880deg);
   }
 }
-
 .holder .circle:nth-child(9) {
-  border: 13px solid var(--foreground);
+  border: 13px solid black;
   border-bottom: none;
   border-radius: 248px 248px 0 0;
   width: 248px;
@@ -305,24 +267,20 @@ body {
   0% {
     transform: translateX(-50%) rotate(0deg);
   }
-
   100% {
     transform: translateX(-50%) rotate(-3240deg);
   }
 }
-
 @keyframes circle-9 {
   0% {
     transform: translateX(-50%) rotate(0deg);
   }
-
   100% {
     transform: translateX(-50%) rotate(-3240deg);
   }
 }
-
 .holder .circle:nth-child(10) {
-  border: 13px solid var(--foreground);
+  border: 13px solid black;
   border-bottom: none;
   border-radius: 279px 279px 0 0;
   width: 279px;
@@ -336,24 +294,20 @@ body {
   0% {
     transform: translateX(-50%) rotate(0deg);
   }
-
   100% {
     transform: translateX(-50%) rotate(-3600deg);
   }
 }
-
 @keyframes circle-10 {
   0% {
     transform: translateX(-50%) rotate(0deg);
   }
-
   100% {
     transform: translateX(-50%) rotate(-3600deg);
   }
 }
-
 .holder .circle:nth-child(11) {
-  border: 13px solid var(--foreground);
+  border: 13px solid black;
   border-bottom: none;
   border-radius: 310px 310px 0 0;
   width: 310px;
@@ -367,24 +321,20 @@ body {
   0% {
     transform: translateX(-50%) rotate(0deg);
   }
-
   100% {
     transform: translateX(-50%) rotate(-3960deg);
   }
 }
-
 @keyframes circle-11 {
   0% {
     transform: translateX(-50%) rotate(0deg);
   }
-
   100% {
     transform: translateX(-50%) rotate(-3960deg);
   }
 }
-
 .holder .circle:nth-child(12) {
-  border: 13px solid var(--foreground);
+  border: 13px solid black;
   border-bottom: none;
   border-radius: 341px 341px 0 0;
   width: 341px;
@@ -398,24 +348,20 @@ body {
   0% {
     transform: translateX(-50%) rotate(0deg);
   }
-
   100% {
     transform: translateX(-50%) rotate(-4320deg);
   }
 }
-
 @keyframes circle-12 {
   0% {
     transform: translateX(-50%) rotate(0deg);
   }
-
   100% {
     transform: translateX(-50%) rotate(-4320deg);
   }
 }
-
 .holder .circle:nth-child(13) {
-  border: 13px solid var(--foreground);
+  border: 13px solid black;
   border-bottom: none;
   border-radius: 372px 372px 0 0;
   width: 372px;
@@ -429,24 +375,20 @@ body {
   0% {
     transform: translateX(-50%) rotate(0deg);
   }
-
   100% {
     transform: translateX(-50%) rotate(-4680deg);
   }
 }
-
 @keyframes circle-13 {
   0% {
     transform: translateX(-50%) rotate(0deg);
   }
-
   100% {
     transform: translateX(-50%) rotate(-4680deg);
   }
 }
-
 .holder .circle:nth-child(14) {
-  border: 13px solid var(--foreground);
+  border: 13px solid black;
   border-bottom: none;
   border-radius: 403px 403px 0 0;
   width: 403px;
@@ -460,24 +402,20 @@ body {
   0% {
     transform: translateX(-50%) rotate(0deg);
   }
-
   100% {
     transform: translateX(-50%) rotate(-5040deg);
   }
 }
-
 @keyframes circle-14 {
   0% {
     transform: translateX(-50%) rotate(0deg);
   }
-
   100% {
     transform: translateX(-50%) rotate(-5040deg);
   }
 }
-
 .holder .circle:nth-child(15) {
-  border: 13px solid var(--foreground);
+  border: 13px solid black;
   border-bottom: none;
   border-radius: 434px 434px 0 0;
   width: 434px;
@@ -491,24 +429,20 @@ body {
   0% {
     transform: translateX(-50%) rotate(0deg);
   }
-
   100% {
     transform: translateX(-50%) rotate(-5400deg);
   }
 }
-
 @keyframes circle-15 {
   0% {
     transform: translateX(-50%) rotate(0deg);
   }
-
   100% {
     transform: translateX(-50%) rotate(-5400deg);
   }
 }
-
 .holder .circle:nth-child(16) {
-  border: 13px solid var(--foreground);
+  border: 13px solid black;
   border-bottom: none;
   border-radius: 465px 465px 0 0;
   width: 465px;
@@ -522,33 +456,22 @@ body {
   0% {
     transform: translateX(-50%) rotate(0deg);
   }
-
   100% {
     transform: translateX(-50%) rotate(-5760deg);
   }
 }
-
 @keyframes circle-16 {
   0% {
     transform: translateX(-50%) rotate(0deg);
   }
-
   100% {
     transform: translateX(-50%) rotate(-5760deg);
   }
 }
-
 /* # Mesmerizing by xposedbones */
 
-@media (prefers-reduced-motion) {
-  :root {
-  --anispeed: 0;
-  }
+@media (prefers-reduced-motion: reduce) {
+.circle {
+--anispeed: 0;  
 }
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground: hsl(208, 100%, 97%);
-    --background: hsl(208, 100%, 7%);
-  }
 }
