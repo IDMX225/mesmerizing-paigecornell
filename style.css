@@ -471,7 +471,7 @@ body {
 /* # Mesmerizing by xposedbones */
 
 @media (prefers-reduced-motion: reduce) {
-:root {
---anispeed: 0; 
+.circle {
+animation: none; 
 }
 }
