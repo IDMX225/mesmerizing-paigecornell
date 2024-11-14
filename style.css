@@ -4,7 +4,7 @@
 */
 
 :root {
-  --anispeed: 20s;
+  --anispeed: 10s;
 }
 
 body {
@@ -472,6 +472,6 @@ body {
 
 @media (prefers-reduced-motion: reduce) {
 .circle {
---anispeed: 0;  
+--anispeed: 20s;  
 }
 }
