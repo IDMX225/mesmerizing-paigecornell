@@ -472,6 +472,6 @@ body {
 
 @media (prefers-reduced-motion: reduce) {
 .circle {
---duration: 0; 
+--anispeed: 0;  
 }
 }
