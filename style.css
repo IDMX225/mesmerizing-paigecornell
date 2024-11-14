@@ -479,7 +479,7 @@ body {
 
 @media (prefers-color-scheme: dark) {
 :root {
---foreground: hsl(208, 100%, 97%);
---background: hsl(208, 100%, 7%);
+--foreground: var(white); 
+--background: var (black); 
 }
 }
