@@ -475,3 +475,10 @@ body {
 --anispeed: 0;  
 }
 }
+
+@media (prefers-color-scheme: dark) {
+.root {
+--foreground: hsl (0, 0, 100%);
+--background: hsl (292, 100% 0%);
+}
+}
