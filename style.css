@@ -476,9 +476,10 @@ body {
 }
 }
 
+
 @media (prefers-color-scheme: dark) {
-.circle {
---foreground-color: white; 
---background-color: black; 
+:root {
+--foreground: hsl(208, 100%, 97%);
+--background: hsl(208, 100%, 7%);
 }
 }
