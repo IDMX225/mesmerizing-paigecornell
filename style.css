@@ -8,8 +8,8 @@
 */
 :root {
   --anispeed: 10s;
-  --foreground: hsl(240, 100%, 27%);
-  --background: hsl(240, 100%, 97%);
+  --foreground: hsl(0, 0%, 100%);
+  --background: hsl(0, 0%, 0%);
 }
 
 body {
