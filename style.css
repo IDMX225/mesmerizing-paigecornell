@@ -5,6 +5,8 @@
 
 :root {
   --anispeed: 10s;
+  --foreground: black;
+  --background: white; 
 }
 
 body {
@@ -37,7 +39,7 @@ body {
 }
 
 .holder .circle:nth-child(1) {
-  background: black;
+  background: var(--background);
   border-bottom: none;
   border-radius: 25px 25px 0 0;
   width: 25px;
@@ -479,7 +481,7 @@ body {
 
 @media (prefers-color-scheme: dark) {
 :root {
---foreground: var(white); 
---background: var (black); 
+--foreground: white; 
+--background: black; 
 }
 }
