@@ -5,8 +5,8 @@
 
 :root {
   --anispeed: 10s;
-  --foreground: black;
-  --background: white; 
+  --foreground: white;
+  --background: black; 
 }
 
 body {
