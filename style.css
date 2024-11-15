@@ -1,12 +1,12 @@
-/* 
-  # Mesmerizing by xposedbones 
+/*
+  # Mesmerizing by xposedbones
   https://codepen.io/xposedbones/pen/aOrQVy
 */
 
 :root {
   --anispeed: 10s;
-  --foreground: white;
-  --background: black;
+  --foreground: black;
+  --background: white;
 }
 
 body {
@@ -14,12 +14,13 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: var(--background);
 }
 
 .wrapper {
   height: 75vh;
   padding: 2rem;
-  outline: 1px solid black;
+  outline: 1px solid var(--foreground);
   margin: 3rem;
 }
 
@@ -39,7 +40,7 @@ body {
 }
 
 .holder .circle:nth-child(1) {
-  background: var(--background);
+  background: var(--foreground);
   border-bottom: none;
   border-radius: 25px 25px 0 0;
   width: 25px;
@@ -53,18 +54,22 @@ body {
   0% {
     transform: translateX(-50%) rotate(0deg);
   }
+
   100% {
     transform: translateX(-50%) rotate(-360deg);
   }
 }
+
 @keyframes circle-1 {
   0% {
     transform: translateX(-50%) rotate(0deg);
   }
+
   100% {
     transform: translateX(-50%) rotate(-360deg);
   }
 }
+
 .holder .circle:nth-child(2) {
   border: 13px solid var(--foreground);
   border-bottom: none;
@@ -80,18 +85,22 @@ body {
   0% {
     transform: translateX(-50%) rotate(0deg);
   }
+
   100% {
     transform: translateX(-50%) rotate(-720deg);
   }
 }
+
 @keyframes circle-2 {
   0% {
     transform: translateX(-50%) rotate(0deg);
   }
+
   100% {
     transform: translateX(-50%) rotate(-720deg);
   }
 }
+
 .holder .circle:nth-child(3) {
   border: 13px solid var(--foreground);
   border-bottom: none;
@@ -107,18 +116,22 @@ body {
   0% {
     transform: translateX(-50%) rotate(0deg);
   }
+
   100% {
     transform: translateX(-50%) rotate(-1080deg);
   }
 }
+
 @keyframes circle-3 {
   0% {
     transform: translateX(-50%) rotate(0deg);
   }
+
   100% {
     transform: translateX(-50%) rotate(-1080deg);
   }
 }
+
 .holder .circle:nth-child(4) {
   border: 13px solid var(--foreground);
   border-bottom: none;
@@ -134,18 +147,22 @@ body {
   0% {
     transform: translateX(-50%) rotate(0deg);
   }
+
   100% {
     transform: translateX(-50%) rotate(-1440deg);
   }
 }
+
 @keyframes circle-4 {
   0% {
     transform: translateX(-50%) rotate(0deg);
   }
+
   100% {
     transform: translateX(-50%) rotate(-1440deg);
   }
 }
+
 .holder .circle:nth-child(5) {
   border: 13px solid var(--foreground);
   border-bottom: none;
@@ -161,18 +178,22 @@ body {
   0% {
     transform: translateX(-50%) rotate(0deg);
   }
+
   100% {
     transform: translateX(-50%) rotate(-1800deg);
   }
 }
+
 @keyframes circle-5 {
   0% {
     transform: translateX(-50%) rotate(0deg);
   }
+
   100% {
     transform: translateX(-50%) rotate(-1800deg);
   }
 }
+
 .holder .circle:nth-child(6) {
   border: 13px solid var(--foreground);
   border-bottom: none;
@@ -188,18 +209,22 @@ body {
   0% {
     transform: translateX(-50%) rotate(0deg);
   }
+
   100% {
     transform: translateX(-50%) rotate(-2160deg);
   }
 }
+
 @keyframes circle-6 {
   0% {
     transform: translateX(-50%) rotate(0deg);
   }
+
   100% {
     transform: translateX(-50%) rotate(-2160deg);
   }
 }
+
 .holder .circle:nth-child(7) {
   border: 13px solid var(--foreground);
   border-bottom: none;
@@ -215,18 +240,22 @@ body {
   0% {
     transform: translateX(-50%) rotate(0deg);
   }
+
   100% {
     transform: translateX(-50%) rotate(-2520deg);
   }
 }
+
 @keyframes circle-7 {
   0% {
     transform: translateX(-50%) rotate(0deg);
   }
+
   100% {
     transform: translateX(-50%) rotate(-2520deg);
   }
 }
+
 .holder .circle:nth-child(8) {
   border: 13px solid var(--foreground);
   border-bottom: none;
@@ -242,18 +271,22 @@ body {
   0% {
     transform: translateX(-50%) rotate(0deg);
   }
+
   100% {
     transform: translateX(-50%) rotate(-2880deg);
   }
 }
+
 @keyframes circle-8 {
   0% {
     transform: translateX(-50%) rotate(0deg);
   }
+
   100% {
     transform: translateX(-50%) rotate(-2880deg);
   }
 }
+
 .holder .circle:nth-child(9) {
   border: 13px solid var(--foreground);
   border-bottom: none;
@@ -269,18 +302,22 @@ body {
   0% {
     transform: translateX(-50%) rotate(0deg);
   }
+
   100% {
     transform: translateX(-50%) rotate(-3240deg);
   }
 }
+
 @keyframes circle-9 {
   0% {
     transform: translateX(-50%) rotate(0deg);
   }
+
   100% {
     transform: translateX(-50%) rotate(-3240deg);
   }
 }
+
 .holder .circle:nth-child(10) {
   border: 13px solid var(--foreground);
   border-bottom: none;
@@ -296,18 +333,22 @@ body {
   0% {
     transform: translateX(-50%) rotate(0deg);
   }
+
   100% {
     transform: translateX(-50%) rotate(-3600deg);
   }
 }
+
 @keyframes circle-10 {
   0% {
     transform: translateX(-50%) rotate(0deg);
   }
+
   100% {
     transform: translateX(-50%) rotate(-3600deg);
   }
 }
+
 .holder .circle:nth-child(11) {
   border: 13px solid var(--foreground);
   border-bottom: none;
@@ -323,18 +364,22 @@ body {
   0% {
     transform: translateX(-50%) rotate(0deg);
   }
+
   100% {
     transform: translateX(-50%) rotate(-3960deg);
   }
 }
+
 @keyframes circle-11 {
   0% {
     transform: translateX(-50%) rotate(0deg);
   }
+
   100% {
     transform: translateX(-50%) rotate(-3960deg);
   }
 }
+
 .holder .circle:nth-child(12) {
   border: 13px solid var(--foreground);
   border-bottom: none;
@@ -350,18 +395,22 @@ body {
   0% {
     transform: translateX(-50%) rotate(0deg);
   }
+
   100% {
     transform: translateX(-50%) rotate(-4320deg);
   }
 }
+
 @keyframes circle-12 {
   0% {
     transform: translateX(-50%) rotate(0deg);
   }
+
   100% {
     transform: translateX(-50%) rotate(-4320deg);
   }
 }
+
 .holder .circle:nth-child(13) {
   border: 13px solid var(--foreground);
   border-bottom: none;
@@ -377,18 +426,22 @@ body {
   0% {
     transform: translateX(-50%) rotate(0deg);
   }
+
   100% {
     transform: translateX(-50%) rotate(-4680deg);
   }
 }
+
 @keyframes circle-13 {
   0% {
     transform: translateX(-50%) rotate(0deg);
   }
+
   100% {
     transform: translateX(-50%) rotate(-4680deg);
   }
 }
+
 .holder .circle:nth-child(14) {
   border: 13px solid var(--foreground);
   border-bottom: none;
@@ -404,18 +457,22 @@ body {
   0% {
     transform: translateX(-50%) rotate(0deg);
   }
+
   100% {
     transform: translateX(-50%) rotate(-5040deg);
   }
 }
+
 @keyframes circle-14 {
   0% {
     transform: translateX(-50%) rotate(0deg);
   }
+
   100% {
     transform: translateX(-50%) rotate(-5040deg);
   }
 }
+
 .holder .circle:nth-child(15) {
   border: 13px solid var(--foreground);
   border-bottom: none;
@@ -431,18 +488,22 @@ body {
   0% {
     transform: translateX(-50%) rotate(0deg);
   }
+
   100% {
     transform: translateX(-50%) rotate(-5400deg);
   }
 }
+
 @keyframes circle-15 {
   0% {
     transform: translateX(-50%) rotate(0deg);
   }
+
   100% {
     transform: translateX(-50%) rotate(-5400deg);
   }
 }
+
 .holder .circle:nth-child(16) {
   border: 13px solid var(--foreground);
   border-bottom: none;
@@ -458,29 +519,33 @@ body {
   0% {
     transform: translateX(-50%) rotate(0deg);
   }
+
   100% {
     transform: translateX(-50%) rotate(-5760deg);
   }
 }
+
 @keyframes circle-16 {
   0% {
     transform: translateX(-50%) rotate(0deg);
   }
+
   100% {
     transform: translateX(-50%) rotate(-5760deg);
   }
 }
+
 /* # Mesmerizing by xposedbones */
 
 @media (prefers-reduced-motion: reduce) {
-.circle {
---anispeed: 20s;  
-}
+  :root {
+    --anispeed: 20s;
+  }
 }
 
 @media (prefers-color-scheme: dark) {
-:root {
---foreground: white;
---background: black;
-}
+  :root {
+    --foreground: white;
+    --background: black;
+  }
 }
